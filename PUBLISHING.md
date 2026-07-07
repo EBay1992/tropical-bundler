@@ -12,7 +12,7 @@ gh repo create tropical-bundler --public --source=. --remote=origin
 git remote add origin https://github.com/YOUR_USER/tropical-bundler.git
 ```
 
-Update `package.json` → `repository.url` if your GitHub username differs from `nareks`.
+Update `package.json` -> `repository.url` if your GitHub username differs from `ehsanbayranvand`.
 
 ### 2. npm account + token
 

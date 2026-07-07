@@ -25,7 +25,7 @@ npx tropical-bundler analyze --entry src/index.js
 ### From source (Rust)
 
 ```bash
-git clone https://github.com/nareksargsyan/tropical-bundler.git
+git clone https://github.com/ehsanbayranvand/tropical-bundler.git
 cd tropical-bundler
 cargo build --release
 # binary: target/release/tropical-bundler(.exe)

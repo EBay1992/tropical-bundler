@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "Bundler that solves global code-splitting boundaries with tropical (min-plus) linear algebra",
   "license": "MIT",
-  "author": "NarekS",
+  "author": "Ehsan Bayranvand",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nareksargsyan/tropical-bundler.git"
+    "url": "git+https://github.com/ehsanbayranvand/tropical-bundler.git"
   },
-  "homepage": "https://github.com/nareksargsyan/tropical-bundler#readme",
+  "homepage": "https://github.com/ehsanbayranvand/tropical-bundler#readme",
   "bugs": {
-    "url": "https://github.com/nareksargsyan/tropical-bundler/issues"
+    "url": "https://github.com/ehsanbayranvand/tropical-bundler/issues"
   },
   "keywords": [
     "bundler",
