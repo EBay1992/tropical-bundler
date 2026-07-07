@@ -1,0 +1,51 @@
+{
+  "name": "tropical-bundler",
+  "version": "0.1.0",
+  "description": "Bundler that solves global code-splitting boundaries with tropical (min-plus) linear algebra",
+  "license": "MIT",
+  "author": "NarekS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nareksargsyan/tropical-bundler.git"
+  },
+  "homepage": "https://github.com/nareksargsyan/tropical-bundler#readme",
+  "bugs": {
+    "url": "https://github.com/nareksargsyan/tropical-bundler/issues"
+  },
+  "keywords": [
+    "bundler",
+    "code-splitting",
+    "tropical",
+    "min-plus",
+    "dependency-graph",
+    "rust"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "tropical-bundler": "bin/tropical-bundler.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "build:native": "cargo build --release",
+    "test:native": "cargo test --release",
+    "prepack": "node scripts/check-pack.js"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "optionalDependencies": {
+    "tropical-bundler-darwin-arm64": "0.1.0",
+    "tropical-bundler-darwin-x64": "0.1.0",
+    "tropical-bundler-linux-arm64-gnu": "0.1.0",
+    "tropical-bundler-linux-x64-gnu": "0.1.0",
+    "tropical-bundler-win32-x64": "0.1.0"
+  }
+}

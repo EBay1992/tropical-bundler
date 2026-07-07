@@ -1,0 +1,9 @@
+/target
+node_modules/
+npm-dist/
+bin-native/
+bench-project/node_modules/
+bench-project/src/
+examples/hello/dist/
+*.tgz
+.DS_Store

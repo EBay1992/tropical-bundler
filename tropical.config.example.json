@@ -1,0 +1,6 @@
+{
+  "entry": "src/index.js",
+  "outdir": "dist",
+  "root": ".",
+  "budget": 512000
+}
