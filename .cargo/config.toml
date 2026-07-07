@@ -1,2 +1,6 @@
 [build]
 rustflags = ["-C", "target-cpu=native"]
+
+# Local Windows dev only: if Git Bash shadows MSVC link.exe, use the GNU toolchain:
+#   rustup toolchain install stable-x86_64-pc-windows-gnu
+#   rustup override set stable-x86_64-pc-windows-gnu

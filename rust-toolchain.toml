@@ -1,4 +1,2 @@
 [toolchain]
-# GNU toolchain: self-contained linking, avoids PATH collisions between
-# MSVC link.exe and Git Bash's coreutils link.exe on this machine.
-channel = "stable-x86_64-pc-windows-gnu"
+channel = "stable"

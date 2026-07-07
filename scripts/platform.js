@@ -3,7 +3,7 @@
 /** Map Node (process.platform, process.arch) → Rust target triple + npm platform package suffix. */
 const PLATFORMS = {
   "win32-x64": {
-    triple: "x86_64-pc-windows-gnu",
+    triple: "x86_64-pc-windows-msvc",
     pkg: "tropical_bundler-win32-x64",
     bin: "tropical-bundler.exe",
     os: ["win32"],
