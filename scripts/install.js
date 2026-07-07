@@ -11,7 +11,7 @@ function githubRepo() {
     const m = url.match(/github\.com[:/](.+?)(?:\.git)?$/);
     if (m) return m[1];
   } catch {}
-  return "ehsanbayranvand/tropical-bundler";
+  return "EBay1992/tropical-bundler";
 }
 
 const VERSION = require("../package.json").version;

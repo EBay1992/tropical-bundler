@@ -15,17 +15,17 @@ Point it at a real JS/TS project, set an entry and byte budget, and it emits:
 
 ```bash
 # Run without installing
-npx tropical-bundler build --entry src/index.js
+npx tropical_bundler build --entry src/index.js
 
 # Or install as a dev dependency
-npm install -D tropical-bundler
-npx tropical-bundler analyze --entry src/index.js
+npm install -D tropical_bundler
+npx tropical_bundler analyze --entry src/index.js
 ```
 
 ### From source (Rust)
 
 ```bash
-git clone https://github.com/ehsanbayranvand/tropical-bundler.git
+git clone https://github.com/EBay1992/tropical-bundler.git
 cd tropical-bundler
 cargo build --release
 # binary: target/release/tropical-bundler(.exe)

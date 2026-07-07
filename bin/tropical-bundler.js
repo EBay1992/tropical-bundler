@@ -31,9 +31,9 @@ function findBinary() {
   const local = path.join(__dirname, "..", "target", "release", `tropical-bundler${ext}`);
   if (fs.existsSync(local)) return local;
 
-  console.error(
-    "[tropical-bundler] Native binary not found.\n" +
-      "  Try: npm install tropical-bundler\n" +
+    console.error(
+    "[tropical_bundler] Native binary not found.\n" +
+      "  Try: npm install tropical_bundler\n" +
       "  Or:  cargo build --release (from source checkout)"
   );
   process.exit(1);

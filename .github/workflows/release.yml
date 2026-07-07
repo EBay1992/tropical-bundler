@@ -113,7 +113,7 @@ jobs:
       - name: Publish platform packages
         run: |
           for dir in npm-dist/*/; do
-            (cd "$dir" && npm publish --access public)
+            (cd "$dir" && npm publish)
           done
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -122,6 +122,6 @@ jobs:
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           npm version "$VERSION" --no-git-tag-version
-          npm publish --access public
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

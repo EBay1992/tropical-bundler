@@ -1,16 +1,19 @@
 {
-  "name": "tropical-bundler",
+  "name": "tropical_bundler",
   "version": "0.1.0",
   "description": "Bundler that solves global code-splitting boundaries with tropical (min-plus) linear algebra",
   "license": "MIT",
-  "author": "Ehsan Bayranvand",
+  "author": {
+    "name": "Ehsan Bayranvand",
+    "url": "https://github.com/EBay1992"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ehsanbayranvand/tropical-bundler.git"
+    "url": "git+https://github.com/EBay1992/tropical-bundler.git"
   },
-  "homepage": "https://github.com/ehsanbayranvand/tropical-bundler#readme",
+  "homepage": "https://github.com/EBay1992/tropical-bundler#readme",
   "bugs": {
-    "url": "https://github.com/ehsanbayranvand/tropical-bundler/issues"
+    "url": "https://github.com/EBay1992/tropical-bundler/issues"
   },
   "keywords": [
     "bundler",
@@ -24,7 +27,7 @@
     "node": ">=18"
   },
   "bin": {
-    "tropical-bundler": "bin/tropical-bundler.js"
+    "tropical_bundler": "bin/tropical-bundler.js"
   },
   "scripts": {
     "postinstall": "node scripts/install.js",
@@ -38,14 +41,11 @@
     "LICENSE",
     "README.md"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "optionalDependencies": {
-    "tropical-bundler-darwin-arm64": "0.1.0",
-    "tropical-bundler-darwin-x64": "0.1.0",
-    "tropical-bundler-linux-arm64-gnu": "0.1.0",
-    "tropical-bundler-linux-x64-gnu": "0.1.0",
-    "tropical-bundler-win32-x64": "0.1.0"
+    "tropical_bundler-darwin-arm64": "0.1.0",
+    "tropical_bundler-darwin-x64": "0.1.0",
+    "tropical_bundler-linux-arm64-gnu": "0.1.0",
+    "tropical_bundler-linux-x64-gnu": "0.1.0",
+    "tropical_bundler-win32-x64": "0.1.0"
   }
 }

@@ -34,7 +34,7 @@ for (const info of Object.values(PLATFORMS)) {
     license: "MIT",
     repository: {
       type: "git",
-      url: "git+https://github.com/ehsanbayranvand/tropical-bundler.git",
+      url: "git+https://github.com/EBay1992/tropical-bundler.git",
     },
     os: info.os,
     cpu: info.cpu,
